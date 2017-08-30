@@ -1,0 +1,8 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/c5
+/usr/lib/debug/usr/bin/harbour-test_sdcardLocator.debug
+/usr/lib/debug/.build-id/c5/efc1fb4377e5e5e6a51cac16d68758d5422795.debug
+/usr/lib/debug/.build-id/c5/efc1fb4377e5e5e6a51cac16d68758d5422795
