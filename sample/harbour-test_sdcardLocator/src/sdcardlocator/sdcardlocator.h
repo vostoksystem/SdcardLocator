@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2017 Jerome levreau / vostoksystem.eu.
+  Copyright (C) 2016 Jerome levreau / vostoksystem.
   Contact: contact <contact@vostoksytem.eu>
   All rights reserved.
 
@@ -29,7 +29,7 @@
 
 /**
  * @brief this helper class is to be used with phone (sailfish os / jolla) for sdcard ops/info
- * @version 1.0
+ * @version 1.2
  * @author levreau.jerome@vostoksystem.eu
  */
 class SdcardLocator : public QObject {

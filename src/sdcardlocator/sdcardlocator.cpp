@@ -45,6 +45,22 @@ void SdcardLocator::checkSdcard() {
             location = liste.at(6);
             break;
         }
+
+        // fix sur l'update 2.2.0.29
+        //@since 1.2
+        if( liste.length()>=6 && liste.at(6).indexOf("/run/media/nemo/")==0) {
+            type = liste.at(1);
+            location = liste.at(6);
+            break;
+        }
+
+        // fix sur l'update 2.2.0.29
+        //@since 1.2
+        if( liste.length()>=6 && liste.at(6).indexOf("/opt/alien/run/media/nemo")==0) {
+            type = liste.at(1);
+            location = liste.at(6);
+            break;
+        }
     }
 
     pclose(fichier);

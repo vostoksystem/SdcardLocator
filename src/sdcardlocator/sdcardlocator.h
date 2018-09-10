@@ -29,7 +29,7 @@
 
 /**
  * @brief this helper class is to be used with phone (sailfish os / jolla) for sdcard ops/info
- * @version 1.0
+ * @version 1.2
  * @author levreau.jerome@vostoksystem.eu
  */
 class SdcardLocator : public QObject {
